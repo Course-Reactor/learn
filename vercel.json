@@ -1,9 +1,9 @@
 {
   "routes": [
-    { "src": "/.*", "dest": "/index.html" },
     {
       "src": "/(.js)",
       "headers": [{ "key": "Content-Type", "value": "text/javascript" }]
-    }
+    },
+    { "src": "/.*", "dest": "/index.html" }
   ]
 }
