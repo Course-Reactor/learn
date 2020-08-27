@@ -1,9 +1,7 @@
 {
+  "version": 2,
   "routes": [
-    {
-      "src": "/(.js)",
-      "headers": [{ "key": "Content-Type", "value": "text/javascript" }]
-    },
+    { "handle": "filesystem" },
     { "src": "/.*", "dest": "/index.html" }
   ]
 }
